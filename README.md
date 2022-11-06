@@ -1,33 +1,26 @@
-# Número por extenso
+# React Input por Extenso
 
-Escreve números por extenso: normais, monetários e porcentagens.
-Fácil implementação de novos tipos.
+Componente React que retorna um número por extenso
 
----
+[![npm](https://img.shields.io/npm/v/react-converte-numero-extenso)](https://www.npmjs.com/package/react-converte-numero-extenso) ![NPM](https://img.shields.io/npm/l/react-converte-numero-extenso)
 
-## Instalação
+## Como instalar
 
-```shell
-npm i numero-por-extenso
+Abaixo as formas de como instalar essa biblioteca utilizando o npm ou yarn:
+
+```
+npm install react-converte-numero-extenso
+# ou
+yarn add react-converte-numero-extenso
 ```
 
----
+## Como usar
 
-## Uso
+Uma forma básica de como utilizar o componente
 
 ```js
 const numero = require("numero-por-extenso");
 ```
-
-### Estilos existentes
-
-- normal (padrão)
-- monetario
-- porcentagem
-
-### Exemplos
-
-Números inteiros:
 
 ```js
 numero.porExtenso(128);
@@ -66,16 +59,12 @@ numero.porExtenso(123_456.7891, numero.estilo.porcentagem);
 // 'cento e vinte e três mil quatrocentos e cinquenta e seis vírgula sete mil oitocentos e noventa e um décimos de milésimo por cento'
 ```
 
-Maior número possível (type number):
+## Propriedades
 
-- 999_999_999_999_999.9
+Esse componente é uma abstração de um componente input do tipo numérico, todas a propriedades de um input estão disponíveis.
 
-Maior número possível (type string):
-
-- '999999999999999999999999999999999999999999999.99999999999999999999'
-
----
-
-## Licença
-
-MIT License - Copyright (c) 2022 Marco Antonio
+| Propriedade | Estilos        | Tipo   | Descrição                     |
+| ----------- | -------------- | ------ | ----------------------------- |
+| tipoExtenso | normal(padrão) | string | Formato de extensão do número |
+| tipoExtenso | monetário      | string | Formato de extensão do número |
+| tipoExtenso | porcentagem    | string | Formato de extensão do número |
