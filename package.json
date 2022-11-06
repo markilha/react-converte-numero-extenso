@@ -1,6 +1,6 @@
 {
   "name": "react-converte-numero-extenso",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Escreve um numero por extenso",
   "main": "index.js",
   "repository": "https://github.com/markilha/react-converte-numero-extenso",

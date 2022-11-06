@@ -44,6 +44,9 @@ numero.porExtenso(10.5, numero.estilo.monetario);
 
 numero.porExtenso(10.5, numero.estilo.porcentagem);
 // 'dez vírgula cinco décimos por cento'
+
+numero.porExtenso(10.5, numero.estilo.agrario);
+// 'dez metros quadrados e cinquenta decímetros quadrados'
 ```
 
 Números gigantes:
@@ -63,8 +66,9 @@ numero.porExtenso(123_456.7891, numero.estilo.porcentagem);
 
 Esse componente é uma abstração de um componente input do tipo numérico, todas a propriedades de um input estão disponíveis.
 
-| Propriedade | Estilos        | Tipo   | Descrição                     |
-| ----------- | -------------- | ------ | ----------------------------- |
-| tipoExtenso | normal(padrão) | string | Formato de extensão do número |
-| tipoExtenso | monetário      | string | Formato de extensão do número |
-| tipoExtenso | porcentagem    | string | Formato de extensão do número |
+| Propriedade | Estilos        | Tipo   | Descrição                          |
+| ----------- | -------------- | ------ | ---------------------------------- |
+| tipoExtenso | normal(padrão) | string | Formato de extensão do número      |
+| tipoExtenso | monetário      | string | Formato de extensão do monetário   |
+| tipoExtenso | porcentagem    | string | Formato de extensão da porcentagem |
+| tipoExtenso | agraria        | string | Formato de extensão agrária        |
