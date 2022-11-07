@@ -1,8 +1,6 @@
-# React Input por Extenso
+# React-numero-extenso-formatacao
 
-Componente React que retorna um número por extenso
-
-[![npm](https://img.shields.io/npm/v/react-converte-numero-extenso)](https://www.npmjs.com/package/react-converte-numero-extenso) ![NPM](https://img.shields.io/npm/l/react-converte-numero-extenso)
+Escreve um numero por extenso e outras formatações
 
 ## Como instalar
 
