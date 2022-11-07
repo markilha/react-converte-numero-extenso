@@ -1,6 +1,6 @@
 {
   "name": "react-converte-numero-extenso",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Escreve um numero por extenso",
   "main": "index.js",
   "repository": "https://github.com/markilha/react-converte-numero-extenso",
@@ -15,7 +15,8 @@
     "escrever numero",
     "monetario",
     "porcentagem",
-    "escrever numero monetario"
+    "escrever numero monetario",
+    "escrever formato agrário"
   ],
   "license": "MIT",
   "devDependencies": {

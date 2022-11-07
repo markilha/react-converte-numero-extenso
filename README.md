@@ -47,6 +47,9 @@ numero.porExtenso(10.5, numero.estilo.porcentagem);
 
 numero.porExtenso(10.5, numero.estilo.agrario);
 // 'dez metros quadrados e cinquenta decímetros quadrados'
+
+numero.formataNumero(12523);
+//formata numero para decimal: 12.523
 ```
 
 Números gigantes:
@@ -60,15 +63,21 @@ numero.porExtenso(-87_654_321, numero.estilo.monetario);
 
 numero.porExtenso(123_456.7891, numero.estilo.porcentagem);
 // 'cento e vinte e três mil quatrocentos e cinquenta e seis vírgula sete mil oitocentos e noventa e um décimos de milésimo por cento'
+
+const caminho = "C:Projetos/Arquivos/teste.kml";
+numero.getExtensao(caminho);
+//Retorna a extensão de um caminho: 'kml'
 ```
 
 ## Propriedades
 
 Esse componente é uma abstração de um componente input do tipo numérico, todas a propriedades de um input estão disponíveis.
 
-| Propriedade | Estilos        | Tipo   | Descrição                          |
-| ----------- | -------------- | ------ | ---------------------------------- |
-| tipoExtenso | normal(padrão) | string | Formato de extensão do número      |
-| tipoExtenso | monetário      | string | Formato de extensão do monetário   |
-| tipoExtenso | porcentagem    | string | Formato de extensão da porcentagem |
-| tipoExtenso | agraria        | string | Formato de extensão agrária        |
+| Propriedade   | Estilos        | Tipo   | Descrição                          |
+| ------------- | -------------- | ------ | ---------------------------------- |
+| tipoExtenso   | normal(padrão) | string | Formato de extensão do número      |
+| tipoExtenso   | monetário      | string | Formato de extensão do monetário   |
+| tipoExtenso   | porcentagem    | string | Formato de extensão da porcentagem |
+| tipoExtenso   | agraria        | string | Formato de extensão agrária        |
+| formataNumero | numero inteiro | int    | Retorna um double                  |
+| getExtensao   | caminho string | string | Retorna a extensão (string)        |
