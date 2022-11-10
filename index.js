@@ -19,6 +19,10 @@ function formataNumero(valor) {
   return formatado;
 }
 
+function formataMoeda(valor){
+  return valor.toLocaleString('pt-br', {minimumFractionDigits: 2});
+}
+
 //Retorna um extensão de um caminho
 
 function getExtensao(filename) {
@@ -30,5 +34,6 @@ module.exports = {
   porExtenso,
   formataNumero,
   getExtensao,
+  formataMoeda,
   estilo: estilos,
 };

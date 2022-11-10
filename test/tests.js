@@ -193,3 +193,9 @@ describe("Issue #4", () => {
     );
   });
 });
+
+
+test("Testando a formato moeda: ", () => {
+  assert.equal(numero.formataMoeda(1000.30), "1.000,30"); 
+});
+

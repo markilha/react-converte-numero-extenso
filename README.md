@@ -1,5 +1,7 @@
 # React-numero-extenso-formatacao
 
+[![npm](https://img.shields.io/npm/v/react-numero-formatacao-extenso)](https://www.npmjs.com/package/react-numero-formatacao-extenso) ![NPM](https://img.shields.io/npm/l/react-numero-formatacao-extenso)
+
 Escreve um numero por extenso e outras formatações
 
 ## Como instalar
@@ -7,9 +9,9 @@ Escreve um numero por extenso e outras formatações
 Abaixo as formas de como instalar essa biblioteca utilizando o npm ou yarn:
 
 ```
-npm install react-converte-numero-extenso
+npm install react-numero-formatacao-extenso
 # ou
-yarn add react-converte-numero-extenso
+yarn add react-numero-formatacao-extenso
 ```
 
 ## Como usar
