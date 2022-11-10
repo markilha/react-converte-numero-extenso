@@ -1,7 +1,7 @@
 {
-  "name": "react-numero-formatacao-extenso",
+  "name": "react-formatacao-number-string",
   "version": "1.0.1",
-  "description": "Escreve um numero por extenso e outras formatações",
+  "description": "Escreve formatção de um numero e texto",
   "main": "index.js",
   "repository": "https://github.com/markilha/react-converte-numero-extenso",
   "scripts": {

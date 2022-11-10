@@ -1,6 +1,6 @@
 # React-numero-extenso-formatacao
 
-[![npm](https://img.shields.io/npm/v/react-numero-formatacao-extenso)](https://www.npmjs.com/package/react-numero-formatacao-extenso) ![NPM](https://img.shields.io/npm/l/react-numero-formatacao-extenso)
+[![npm](https://img.shields.io/npm/v/react-formatacao-numero-texto")](https://www.npmjs.com/package/react-formatacao-numero-texto") ![NPM](https://img.shields.io/npm/l/react-formatacao-numero-texto")
 
 Escreve um numero por extenso e outras formatações
 
@@ -9,9 +9,9 @@ Escreve um numero por extenso e outras formatações
 Abaixo as formas de como instalar essa biblioteca utilizando o npm ou yarn:
 
 ```
-npm install react-numero-formatacao-extenso
+npm install react-formatacao-numero-texto
 # ou
-yarn add react-numero-formatacao-extenso
+yarn add react-formatacao-numero-texto
 ```
 
 ## Como usar
@@ -50,6 +50,9 @@ numero.porExtenso(10.5, numero.estilo.agrario);
 
 numero.formataNumero(12523);
 //formata numero para decimal: 12.523
+
+numero.formataMoeda(1000.30);
+//formata numero para moeda: 1.000,30
 ```
 
 Números gigantes:
@@ -80,4 +83,5 @@ Esse componente é uma abstração de um componente input do tipo numérico, tod
 | tipoExtenso   | porcentagem    | string | Formato de extensão da porcentagem |
 | tipoExtenso   | agraria        | string | Formato de extensão agrária        |
 | formataNumero | numero inteiro | int    | Retorna um double                  |
+| formataMoeda  | numero inteiro | int    | Retorna um string                  |
 | getExtensao   | caminho string | string | Retorna a extensão (string)        |
